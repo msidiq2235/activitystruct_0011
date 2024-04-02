@@ -19,9 +19,9 @@ int main(){
 	for (int i=0,i<5;i++) {
 		cout << "Data ke-" << (i + 1) << ":" << endl;
 		cout << "Nomor Mahasiswa : ";
-		(cin, mhs[i].nim);
+		getline(cin, mhs[i].nim);
 		cout << "Nama Mahasiswa : ";
-		(cin, mhs[i].nama);
+		getline(cin, mhs[i].nama);
 
 		cout << "Alamat Mahasiswa : " << endl;
 		cout << "\t Nama Desa : ";
